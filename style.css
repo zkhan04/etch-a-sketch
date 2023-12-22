@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: beige;
+}
+
+button {
+    margin: 20px;
+}
+
+.drawing-board {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 960px;
+    border-style: solid;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 2px;
+    border-top-width: 2px;
+    background-color: skyblue;
+}
+
+.grid-row {
+    display: flex;
+    flex-basis: 10px;
+    flex: 1;
+}
+
+.grid-pixel {
+    flex-basis: 10px;
+    flex: 1;
+}
